@@ -1,2 +1,2 @@
 # Cryptochart
-streaming live crypto prices into Google sheet or Excel
+streaming live crypto prices into Excel using python and bitmex api
