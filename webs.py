@@ -6,10 +6,10 @@ import json
 async def main():
     uri = "wss://www.bitmex.com/realtime"
     async with websockets.connect(uri) as websocket:
-        # Send a message to subscribe to XBTUSD updates
+        # Send a message to subscribe to ETHUSD updates
         msg = {
             "op": "subscribe",
-            "args": ["instrument:XBTUSD"]
+            "args": ["instrument:ETHUSD"]
         }
         await websocket.send(json.dumps(msg))
 
