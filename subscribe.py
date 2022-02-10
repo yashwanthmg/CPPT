@@ -2,6 +2,7 @@ import websockets
 import asyncio
 import json
 
+"""www.bitmex.com"""
 
 class BitMex:
     """Class to manage subscriptions to BitMEX prices."""
