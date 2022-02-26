@@ -22,6 +22,7 @@ class BitMexRTD(RTD):
 
     async def __update(self, symbol, field, value, timestamp):
         # Update the value in Excel
+        # Need to replace excel with sheets 
         self.value = value
 
 
