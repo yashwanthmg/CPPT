@@ -1,5 +1,5 @@
 # CPPT
-# Project Report: Crypto Portfolio Price Tracker
+# Project: Crypto Portfolio Price Tracker
 
 ## Table of Contents
 1. **Introduction**
